@@ -39,7 +39,10 @@ if (!empty($_POST['btn_confirm'])) {
         ////////////////////////////////////////////////////////////申込者用////////////////////////////////////////////////////////////
 
         $header01 = "MIME-Version: 1.0\n";
-        $header01 = "Content-Type: multipart/mixed;boundary=\"__BOUNDARY__\"\n";
+        //添付ファイルが無い場合
+        $header01 = "Content-Type: text/plain; charset=UTF-8";
+        //添付ファイルが有る場合
+        // $header01 = "Content-Type: multipart/mixed;boundary=\"__BOUNDARY__\"\n";
         $header01 .= "From: test@adfaces.co.jp\n";
 
         // 件名を設定
