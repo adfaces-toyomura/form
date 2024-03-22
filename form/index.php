@@ -35,7 +35,7 @@ include('./assets/inc/form-setup.php');
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
     <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
-    <script src="assets/js/form.js"></script>
+    <!-- <script src="assets/js/form.js"></script> -->
 </body>
 
 

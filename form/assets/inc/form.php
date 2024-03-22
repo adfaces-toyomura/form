@@ -403,7 +403,7 @@
 
     <div class="">
         <label class="">テキストテスト</label>
-        <textarea class="" name="contact" placeholder="(任意・150字まで)"><?php if (!empty($_POST['contact'])) {
+        <textarea class="" name="contact" placeholder="(任意・150字まで)" rows="7" cols="80" wrap="hard"><?php if (!empty($_POST['contact'])) {
                                                                                                                                 echo h($_POST['contact']);
                                                                                                                             } ?></textarea>
     </div>
